@@ -8,61 +8,61 @@
   /* Legacy iOS */
 }
 
-/* line 17, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 17, D:/wamp64/alice/style/scss/basic.scss */
 html {
   background: #FFFFFF;
   height: 100% !important;
 }
 
-/* line 37, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 37, D:/wamp64/alice/style/scss/basic.scss */
 ol, ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* line 43, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 43, D:/wamp64/alice/style/scss/basic.scss */
 li {
   display: inline-block;
 }
 
-/* line 47, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 47, D:/wamp64/alice/style/scss/basic.scss */
 a {
   color: #989898;
   text-decoration: none;
 }
 
-/* line 53, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 53, D:/wamp64/alice/style/scss/basic.scss */
 input:focus {
   border: 0;
   outline: 0;
 }
 
-/* line 59, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 59, D:/wamp64/alice/style/scss/basic.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 65, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 65, D:/wamp64/alice/style/scss/basic.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 70, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 70, D:/wamp64/alice/style/scss/basic.scss */
 button {
   border: 0;
   cursor: pointer;
 }
 
-/* line 73, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 73, D:/wamp64/alice/style/scss/basic.scss */
 button:focus {
   outline: none;
 }
 
-/* line 78, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 78, D:/wamp64/alice/style/scss/basic.scss */
 .button {
   display: inline-block;
   float: right;
@@ -70,45 +70,45 @@ button:focus {
   top: -15px;
 }
 
-/* line 85, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 85, D:/wamp64/alice/style/scss/basic.scss */
 .rl-container {
   position: relative;
 }
 
-/* line 89, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 89, D:/wamp64/alice/style/scss/basic.scss */
 .boxed {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
   -moz-box-sizing: border-box;
 }
 
-/* line 95, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 95, D:/wamp64/alice/style/scss/basic.scss */
 .slow {
   transition: all .2s ease-in-out;
 }
 
-/* line 99, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 99, D:/wamp64/alice/style/scss/basic.scss */
 .row {
   width: 1124px;
   margin: 0 auto;
 }
 
-/* line 104, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 104, D:/wamp64/alice/style/scss/basic.scss */
 .center {
   text-align: center;
 }
 
-/* line 108, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 108, D:/wamp64/alice/style/scss/basic.scss */
 .spacer.huge {
   height: 20vh;
 }
 
-/* line 109, D:/wamp64/www/alice/style/scss/basic.scss */
+/* line 109, D:/wamp64/alice/style/scss/basic.scss */
 .spacer.big {
   height: 10vh;
   position: relative;
 }
 
-/* line 2, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 2, D:/wamp64/alice/style/scss/style.scss */
 html,
 body {
   font-family: "PT Sans", sans-serif;
@@ -119,14 +119,14 @@ body {
   height: 100;
 }
 
-/* line 12, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 12, D:/wamp64/alice/style/scss/style.scss */
 header {
-  background: #282d35;
+  background: #9ac3c3;
   height: 250px;
   position: relative;
 }
 
-/* line 18, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 18, D:/wamp64/alice/style/scss/style.scss */
 .navigation {
   position: absolute;
   background: #FFF;
@@ -138,12 +138,12 @@ header {
   margin-top: -26px;
 }
 
-/* line 28, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 28, D:/wamp64/alice/style/scss/style.scss */
 .navigation ul li {
   padding-left: 35px;
 }
 
-/* line 30, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 30, D:/wamp64/alice/style/scss/style.scss */
 .navigation ul li a {
   display: block;
   padding: 15px 0;
@@ -152,13 +152,13 @@ header {
   position: relative;
 }
 
-/* line 37, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 37, D:/wamp64/alice/style/scss/style.scss */
 .navigation ul li a.active {
   color: #666;
   font-weight: bold;
 }
 
-/* line 41, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 41, D:/wamp64/alice/style/scss/style.scss */
 .navigation ul li a.active:before {
   content: " ";
   display: inline-block;
@@ -173,28 +173,28 @@ header {
   position: absolute;
 }
 
-/* line 55, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 55, D:/wamp64/alice/style/scss/style.scss */
 .navigation ul li:first-child {
   padding-left: 0;
 }
 
-/* line 61, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 61, D:/wamp64/alice/style/scss/style.scss */
 .stackMenu {
   display: inline;
   padding-left: 80px;
 }
 
-/* line 64, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 64, D:/wamp64/alice/style/scss/style.scss */
 .stackMenu a {
   display: inline-block;
 }
 
-/* line 66, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 66, D:/wamp64/alice/style/scss/style.scss */
 .stackMenu a img {
   width: 30px;
 }
 
-/* line 72, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 72, D:/wamp64/alice/style/scss/style.scss */
 .topMenu {
   margin: 0 auto;
   position: relative;
@@ -202,17 +202,17 @@ header {
   padding-right: 80px;
 }
 
-/* line 77, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 77, D:/wamp64/alice/style/scss/style.scss */
 .topMenu .menuPost {
   float: right;
 }
 
-/* line 80, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 80, D:/wamp64/alice/style/scss/style.scss */
 .topMenu .menuPost ul li {
   padding-left: 25px;
 }
 
-/* line 82, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 82, D:/wamp64/alice/style/scss/style.scss */
 .topMenu .menuPost ul li a {
   display: block;
   color: #ffffff;
@@ -220,7 +220,7 @@ header {
   font-size: 13px;
 }
 
-/* line 93, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 93, D:/wamp64/alice/style/scss/style.scss */
 .topMenuContent {
   position: relative;
   float: left;
@@ -228,7 +228,7 @@ header {
   top: -45px;
 }
 
-/* line 98, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 98, D:/wamp64/alice/style/scss/style.scss */
 .topMenuContent .rw {
   position: relative;
   transform: translateX(-150%);
@@ -240,12 +240,12 @@ header {
   text-indent: -1000px;
 }
 
-/* line 108, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 108, D:/wamp64/alice/style/scss/style.scss */
 .topMenuContent .rw ul li {
   display: block;
 }
 
-/* line 110, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 110, D:/wamp64/alice/style/scss/style.scss */
 .topMenuContent .rw ul li a {
   padding: 8px 0;
   display: block;
@@ -253,31 +253,31 @@ header {
   font-size: 13px;
 }
 
-/* line 117, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 117, D:/wamp64/alice/style/scss/style.scss */
 .topMenuContent .rw ul li:last-child {
   border-bottom: 0;
 }
 
-/* line 122, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 122, D:/wamp64/alice/style/scss/style.scss */
 .topMenuContent .rw.active {
   transform: translateX(0%);
   opacity: 1 !important;
   text-indent: 0 !important;
 }
 
-/* line 129, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 129, D:/wamp64/alice/style/scss/style.scss */
 .ov-pa {
   overflow: hidden;
   padding: 5px;
 }
 
-/* line 134, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 134, D:/wamp64/alice/style/scss/style.scss */
 .grid {
   position: relative;
   margin-top: 50px;
 }
 
-/* line 137, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 137, D:/wamp64/alice/style/scss/style.scss */
 .grid .card {
   background: #fff;
   flex: 1;
@@ -288,26 +288,26 @@ header {
   margin-bottom: 5em;
 }
 
-/* line 145, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 145, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .media {
   padding-top: 0;
   max-width: 230px;
   overflow: hidden;
 }
 
-/* line 149, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 149, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .media div {
   height: 344px;
 }
 
-/* line 151, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 151, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .media div img {
   height: 344px;
   min-width: 230px;
   max-width: 230px;
 }
 
-/* line 157, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 157, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .media .overlay {
   opacity: 0;
   position: absolute;
@@ -320,7 +320,7 @@ header {
   transition: background 1s ease-out;
 }
 
-/* line 167, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 167, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .media .overlay .gallery {
   top: 50%;
   color: #5188ea;
@@ -330,7 +330,7 @@ header {
   transform: translate(-50%, -50%);
 }
 
-/* line 178, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 178, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .information {
   position: absolute;
   text-align: right;
@@ -338,7 +338,7 @@ header {
   right: 50px;
 }
 
-/* line 184, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 184, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .moreBtn {
   padding: 4px 10px;
   display: block;
@@ -352,13 +352,13 @@ header {
   -moz-box-sizing: border-box;
 }
 
-/* line 196, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 196, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .actionlist {
   position: relative;
   height: 25px;
 }
 
-/* line 199, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 199, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .actionlist .addBtn {
   display: inline;
   position: absolute;
@@ -366,12 +366,12 @@ header {
   line-height: 31px;
 }
 
-/* line 204, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 204, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .actionlist .addBtn img {
   width: 15px;
 }
 
-/* line 208, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 208, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .actionlist .loveBtn {
   display: inline;
   position: absolute;
@@ -379,25 +379,25 @@ header {
   line-height: 31px;
 }
 
-/* line 213, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 213, D:/wamp64/alice/style/scss/style.scss */
 .grid .card .actionlist .loveBtn img {
   width: 15px;
 }
 
-/* line 221, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 221, D:/wamp64/alice/style/scss/style.scss */
 .grid.display {
   min-height: 100%;
   display: flex;
 }
 
-/* line 226, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 226, D:/wamp64/alice/style/scss/style.scss */
 #id {
   display: inline;
   float: left;
   padding-left: 12px;
 }
 
-/* line 230, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 230, D:/wamp64/alice/style/scss/style.scss */
 #id span {
   font-size: 12px;
   font-weight: 600;
@@ -405,12 +405,12 @@ header {
   color: #999;
 }
 
-/* line 235, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 235, D:/wamp64/alice/style/scss/style.scss */
 #id span:before {
   content: "#";
 }
 
-/* line 241, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 241, D:/wamp64/alice/style/scss/style.scss */
 .info {
   position: relative;
   padding: 0 13px;
@@ -419,7 +419,7 @@ header {
   margin-bottom: 7px;
 }
 
-/* line 247, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 247, D:/wamp64/alice/style/scss/style.scss */
 .info #name {
   position: relative;
   float: left;
@@ -430,7 +430,7 @@ header {
   font-family: "Ubuntu", sans-serif;
 }
 
-/* line 258, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 258, D:/wamp64/alice/style/scss/style.scss */
 .skills-thumb {
   padding-bottom: 12px;
   width: 80%;
@@ -440,7 +440,7 @@ header {
   border-top: 1px solid #e2e2e2;
 }
 
-/* line 265, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 265, D:/wamp64/alice/style/scss/style.scss */
 .skills-thumb .boxedMedium {
   display: inline-block;
   font-size: 12px;
@@ -449,7 +449,7 @@ header {
   color: #9a9a9a;
 }
 
-/* line 274, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 274, D:/wamp64/alice/style/scss/style.scss */
 .key-form {
   width: 400px;
   margin: 0 auto;
@@ -465,12 +465,12 @@ header {
   border-image-slice: 1;
 }
 
-/* line 287, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 287, D:/wamp64/alice/style/scss/style.scss */
 .key-form form {
   position: relative;
 }
 
-/* line 289, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 289, D:/wamp64/alice/style/scss/style.scss */
 .key-form form input[type=text] {
   background: #eee;
   width: 225px;
@@ -481,7 +481,7 @@ header {
   height: 21px;
 }
 
-/* line 298, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 298, D:/wamp64/alice/style/scss/style.scss */
 .key-form form span {
   margin-right: 30px;
   font-size: 12px;
@@ -489,7 +489,7 @@ header {
   color: #888;
 }
 
-/* line 304, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 304, D:/wamp64/alice/style/scss/style.scss */
 .key-form form .keyBtn {
   border: 0;
   outline: none;
@@ -499,7 +499,7 @@ header {
   top: 0;
 }
 
-/* line 315, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 315, D:/wamp64/alice/style/scss/style.scss */
 .logoTilt {
   width: 200px;
   height: 200px;
@@ -530,7 +530,7 @@ header {
   position: relative;
 }
 
-/* line 343, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 343, D:/wamp64/alice/style/scss/style.scss */
 .logoTilt .bgdrop {
   width: 70%;
   height: 70%;
@@ -545,12 +545,12 @@ header {
   transition: 3s;
 }
 
-/* line 356, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 356, D:/wamp64/alice/style/scss/style.scss */
 .logoTilt span {
   transform: translateZ(40px);
 }
 
-/* line 361, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 361, D:/wamp64/alice/style/scss/style.scss */
 .logo {
   text-align: center;
   position: relative;
@@ -558,13 +558,13 @@ header {
   margin: 0 auto;
 }
 
-/* line 367, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 367, D:/wamp64/alice/style/scss/style.scss */
 .logo div img {
   height: 100px;
   transform: translateZ(40px);
 }
 
-/* line 374, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 374, D:/wamp64/alice/style/scss/style.scss */
 .timeSlide {
   top: 0;
   position: absolute;
@@ -572,7 +572,7 @@ header {
   height: 4px;
 }
 
-/* line 379, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 379, D:/wamp64/alice/style/scss/style.scss */
 .timeSlide li {
   width: 30%;
   height: 4px;
@@ -581,7 +581,7 @@ header {
   margin: 0 3px;
 }
 
-/* line 385, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 385, D:/wamp64/alice/style/scss/style.scss */
 .timeSlide li button {
   height: 4px;
   position: absolute;
@@ -593,28 +593,28 @@ header {
   transition: all .2s ease-in-out;
 }
 
-/* line 396, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 396, D:/wamp64/alice/style/scss/style.scss */
 .timeSlide .slick-active button {
   background: #fff !important;
 }
 
-/* line 401, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 401, D:/wamp64/alice/style/scss/style.scss */
 .media div:nth-child(2),
 .media div:nth-child(3) {
   display: none;
 }
 
-/* line 406, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 406, D:/wamp64/alice/style/scss/style.scss */
 .media:hover:nth-child(2) {
   display: block;
 }
 
-/* line 410, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 410, D:/wamp64/alice/style/scss/style.scss */
 .slick-slide img {
   display: inline-block;
 }
 
-/* line 415, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 415, D:/wamp64/alice/style/scss/style.scss */
 #modalSearch {
   position: absolute;
   right: 0;
@@ -629,7 +629,7 @@ header {
   border-radius: 4px;
 }
 
-/* line 427, D:/wamp64/www/alice/style/scss/style.scss */
+/* line 427, D:/wamp64/alice/style/scss/style.scss */
 #modalSearch:after {
   content: " ";
   background: url(../../assets/icons/magnifying-glass.svg) no-repeat;
