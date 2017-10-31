@@ -4,7 +4,7 @@
 <div class="rl-container">
    <div class="navigation boxed">
         <ul class="nav-unsorted">
-            <li><a href="#" id="all" class="active">All</a></li>
+            <li><a href="#" id="all" class="active">Hottest</a></li>
             <li><a id="model" href="#" >Model</a></li>
             <li><a id="usher" href="#">Usher</a></li>
             <li><a id="escort" href="#">Escort</a></li>
