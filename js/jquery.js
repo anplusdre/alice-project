@@ -2,8 +2,9 @@ $(document).ready(function () {
 
 
     //Hamburger Menu
-    $('.stackMenu a').click(function () {
+    $('.stackMenu a').click(function (event) {
         $('.rw').toggleClass('active');
+		event.preventDefault();
     });
 
 
@@ -13,12 +14,6 @@ $(document).ready(function () {
         $(this).addClass('active');
     });
 
-
-    $('.js-tilt').tilt({
-        glare: true,
-        maxGlare: .9
-    })
-    
         
         
     $('.media').mouseenter(function(){
@@ -65,7 +60,31 @@ var $btns = $('.nav-unsorted li a').click(function() {
 })
     
     
-    
+ //MODAL
+ $("#modalSearch").animatedModal({
+        animatedIn:'slideInDown',
+        animatedOut:'slideOutUp',
+        color:'#060606f2',
+        beforeOpen: function() {
+
+            var children = $(".thumb");
+            var index = 0;
+
+            function addClassNextChild() {
+                if (index == children.length) return;
+                children.eq(index++).show().velocity("transition.expandIn", { opacity:1, stagger: 250 });
+                window.setTimeout(addClassNextChild, 200);
+            }
+
+            addClassNextChild();
+
+        },
+        afterClose: function() {
+          $(".thumb").hide();
+              
+        }
+    });
+
     
     
     
