@@ -8,61 +8,61 @@
   /* Legacy iOS */
 }
 
-/* line 17, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 17, D:/wamp64/www/alice/style/scss/basic.scss */
 html {
   background: #FFFFFF;
   height: 100% !important;
 }
 
-/* line 37, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 37, D:/wamp64/www/alice/style/scss/basic.scss */
 ol, ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* line 43, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 43, D:/wamp64/www/alice/style/scss/basic.scss */
 li {
   display: inline-block;
 }
 
-/* line 47, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 47, D:/wamp64/www/alice/style/scss/basic.scss */
 a {
   color: #989898;
   text-decoration: none;
 }
 
-/* line 53, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 53, D:/wamp64/www/alice/style/scss/basic.scss */
 input:focus {
   border: 0;
   outline: 0;
 }
 
-/* line 59, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 59, D:/wamp64/www/alice/style/scss/basic.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 65, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 65, D:/wamp64/www/alice/style/scss/basic.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 70, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 70, D:/wamp64/www/alice/style/scss/basic.scss */
 button {
   border: 0;
   cursor: pointer;
 }
 
-/* line 73, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 73, D:/wamp64/www/alice/style/scss/basic.scss */
 button:focus {
   outline: none;
 }
 
-/* line 78, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 78, D:/wamp64/www/alice/style/scss/basic.scss */
 .button {
   display: inline-block;
   float: right;
@@ -70,39 +70,39 @@ button:focus {
   top: -15px;
 }
 
-/* line 85, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 85, D:/wamp64/www/alice/style/scss/basic.scss */
 .rl-container {
   position: relative;
 }
 
-/* line 89, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 89, D:/wamp64/www/alice/style/scss/basic.scss */
 .boxed {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   -moz-box-sizing: border-box;
 }
 
-/* line 95, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 95, D:/wamp64/www/alice/style/scss/basic.scss */
 .slow {
   transition: all .2s ease-in-out;
 }
 
-/* line 99, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 99, D:/wamp64/www/alice/style/scss/basic.scss */
 .row {
   width: 1124px;
   margin: 0 auto;
 }
 
-/* line 104, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 104, D:/wamp64/www/alice/style/scss/basic.scss */
 .center {
   text-align: center;
 }
 
-/* line 108, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 108, D:/wamp64/www/alice/style/scss/basic.scss */
 .spacer.huge {
   height: 20vh;
 }
 
-/* line 109, D:/xampp/htdocs/alice/style/scss/basic.scss */
+/* line 109, D:/wamp64/www/alice/style/scss/basic.scss */
 .spacer.big {
   height: 10vh;
 }
